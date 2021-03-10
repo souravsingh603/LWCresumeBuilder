@@ -1,0 +1,44 @@
+<template>
+    <div class="slds-grid slds-wrap">
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_3-of-12 slds-medium-size_3-of-12 m-auto">
+            <img src={profileImage} class="profile_pic" alt="Profile Image" />
+        </div>
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_6-of-12 slds-medium-size_6-of-12 m-auto">
+            <div>
+                <div class="nameHeading mobile_text_center">{userDetail.NAME}</div>
+                <div class="nameHeading mobile_text_center">{userDetail.ROLE}</div>
+            </div>
+            <ul class="small_font">
+                <li class="slds-var-m-bottom_small">
+                    <a href={emailLink} class="link">
+                        <lightning-icon icon-name="utility:email" alternative-text="email" size="x-small"
+                        title="email" class="slds-m-right_small"
+                        ></lightning-icon>
+                        {userDetail.EMAIL}
+                    </a>
+                </li>
+                <li class="slds-var-m-bottom_small">
+                    <a href={phoneLink} class="link">
+                        <lightning-icon icon-name="utility:dialing" alternative-text="dialing" size="x-small"
+                        title="dialing" class="slds-m-right_small"
+                        ></lightning-icon>
+                        {userDetail.PHONE}
+                    </a>
+                </li>
+            </ul>
+           
+        </div>
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_3-of-12 slds-medium-size_3-of-12 m-auto">
+            <ul class="small_font"> 
+                <template for:each={socialDetail} for:item="item">
+                    <li key = {item.type}>
+                        <a href="" target="_blank" class="link">
+                            <img src={item.icon} class="slds-var-m-right_small" width="20px" alt={item.type} />
+                            <span>{item.label}</span>
+                        </a>
+                    </li>
+                </template>
+            </ul>
+        </div>
+    </div>
+</template>
