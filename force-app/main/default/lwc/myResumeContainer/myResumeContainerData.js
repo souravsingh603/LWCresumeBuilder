@@ -11,7 +11,7 @@ export const SOCIAL_LINKS = [
     {
         type : 'LinkedIn',
         label : 'LinkedIn/sourav-singh-088a42b5',
-        link : 'https://linkedin.com/sourav-singh-088a42b5',
+        link : 'https://linkedin.com/in/sourav-singh-088a42b5',
         icon : SOCIAL+'/SOCIAL/linkedin.svg'
     },
     {
@@ -192,50 +192,49 @@ export const SKILLS_DATA ={
         {
             HEADING: "FRONTEND",
             SKILLS_LIST: [
-                { NAME: "React", LEVEL: "95" },
-                { NAME: "Vue", LEVEL: "80" },
-                { NAME: "Angular", LEVEL: "75" },
-                { NAME: "JavaScript(ES5/ES6/ES7/ES8)", LEVEL: "89" },
-                { NAME: "HTML5/CSS3/SASS/LESS", LEVEL: "90" },
+                { NAME: "Aura", LEVEL: "95" },
+                { NAME: "Web Component", LEVEL: "80" },
+                { NAME: "CSS", LEVEL: "75" },
+                { NAME: "JavaScript", LEVEL: "89" },
+                { NAME: "HTML5", LEVEL: "70" },
             ],
         },
         {
             HEADING: "BACKEND",
             SKILLS_LIST: [
-                { NAME: "Python/Django", LEVEL: "80" },
-                { NAME: "NodeJs", LEVEL: "95" },
-                { NAME: "PHP", LEVEL: "98" },
+                { NAME: "APEX", LEVEL: "95" },
+                { NAME: "JAVA", LEVEL: "50" },
+                
             ],
         },
         {
-            HEADING: "CRM/CMS",
+            HEADING: "DATABASE",
             SKILLS_LIST: [
-                { NAME: "Salesforce", LEVEL: "50" },
-                { NAME: "Wordpress", LEVEL: "75" },
-                { NAME: "Drupal", LEVEL: "60" },
+                { NAME: "SOQL", LEVEL: "90" },
+                { NAME: "SOSL", LEVEL: "50" },
+               
             ],
         }
     ],
     OTHERS_SKILLS:{
-        HEADING: 'OTHERS',
+        HEADING: 'TOOLS',
         SKILLS_LIST: [
             "Git",
-            "Gulp",
-            "Webpack",
-            "Code Review",
-            "JIRA",
-            "ngnix",
-            "Unit Testing",
+            "Bitbucket",
+            "SourceTree",
+            "VSCODE",
+            "VSTS",
+            "ANT",
+            "COPADO",
             "Google Api",
-            "Sketch",
-            "Jest",
-            "firebase",
-            "Confluence"]
+            "Confluence",
+            "POSTMAN"
+        ]
     }
 }
 
 export const INTERESTS_DATA = {
     HEADING : "INTERESTS",
-    LIST : ["Reading","Cooking","Cricket"]
+    LIST : ["Reading","Food","Sports"]
 
 }

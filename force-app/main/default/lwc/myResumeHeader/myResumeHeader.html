@@ -32,7 +32,7 @@
             <ul class="small_font"> 
                 <template for:each={socialDetail} for:item="item">
                     <li key = {item.type}>
-                        <a href="" target="_blank" class="link">
+                        <a href={item.link} target="_blank" class="link">
                             <img src={item.icon} class="slds-var-m-right_small" width="20px" alt={item.type} />
                             <span>{item.label}</span>
                         </a>
