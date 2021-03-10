@@ -95,13 +95,13 @@ export const EXPERIENCE_DATA={
             TECHNOLOGIES_USED: {
                 HEADING: 'Technologies used',
                 LIST: [
-                    "Angular",
-                    "Bootstsrap",
-                    "MobX",
-                    "Webpack",
+                    "VisulaForce",
+                    "Apex",
+                    "Integration",
                     "HTML5/CSS3",
                     "Javascript",
-                    "Agile Methodoligies"
+                    "Agile Methodoligies",
+                    "Aura"
                 ]
             }
         }
